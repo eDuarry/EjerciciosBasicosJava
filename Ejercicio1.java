@@ -27,15 +27,15 @@ Fin Programa
 public class Ejercicio1 {
 	public static void main(String[] args) {
 	//Entorno:
-		int area,base,altura;
+		float area,base,altura;
 	//Algoritmo:
 		do {
 			System.out.println("Introduzca la base (debe ser mayor que 0): ");
-			base = Leer.datoInt();
+			base = Leer.datoFloat();
 		} while (base <= 0);
 		do {
 			System.out.println("Introduzca la altura (debe ser mayor que 0): ");
-			altura = Leer.datoInt();
+			altura = Leer.datoFloat();
 		} while (altura <= 0);
 		area = base * altura;
 		System.out.println("El área del rectángulo es: "+area);
